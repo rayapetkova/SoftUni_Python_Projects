@@ -7,7 +7,7 @@ scissors = "scissors"
 games = int(input(f"How many games do you want to play?: "))
 
 for i in range(games):
-    player_move = input("Choose rock, paper or scissors:")
+    player_move = input("Choose rock, paper or scissors: ")
     if player_move == "rock":
         player_move = rock
     elif player_move == "paper":
